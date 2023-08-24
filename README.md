@@ -26,6 +26,7 @@ Domine um Framework, um acelerador de desenvolvimento de aplicações Web.
 
 Este treinamento tem a carga horaria de 125h. Nas quais serão desenvolvidos 4 projetos.
 Os 4 Projetos que será desenvolvido
+
 1 -Construir um sistema de controle de ponto e acesso com Spring Boot
 
 2 -Construir um projeto com arquitetura baseada em microsserviços usando Spring Cloud
