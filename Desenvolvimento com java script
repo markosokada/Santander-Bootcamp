@@ -1,0 +1,40 @@
+#1 - Tem que instalar o Node.Js par ao que vamos fazer,pode ser qualquer versão até a 12.
+#2 - Consultar a versão do node.js ->node-v
+#3 - Consultar a versão do npm(node packet manager)->npm -v
+#4 -Precisaremos de apenas de uma biblioteca ->npm instal -g(de forma global )http-server
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">(servepara criar um site responsivo)
+    <title>Pokedex</title>
+</head>
+<body>
+    <h1>teste</
+</body>
+</html>
+
+
+->http-server
+Starting up http-server, serving ./
+
+http-server version: 14.1.1
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible
+AutoIndex: visible
+Serve GZIP Files: false
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://192.168.56.1:8080(criou um ip na rede loacal na porta 8080.
+  http://10.0.0.6:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+O legal de subir a página com o httpserver é que ele cria ip na redelocal e conseguimos testar 
+com o smartphone, e como a intenção è criar uma página respossiva, isso faz o teste ter validação.
