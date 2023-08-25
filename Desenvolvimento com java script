@@ -9,9 +9,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">(servepara criar um site responsivo)
     <title>Pokedex</title>
+    <style>
+        h1 {
+            color:  red ;
+        }
+    </style>
 </head>
 <body>
-    <h1>teste</
+    <h1>Meu primeiro site</h1>
+    <p>site teste</p>
+    
+    
+    <button id="btnteste" type="button">
+        Teste
+    </button>
+    <script>
+
+        const btnteste = document.getElementById("btnteste")
+        btnteste.addEventListener("click",function (){
+            console.log("clicando o botão!")
+
+        })
+
+    </script>
 </body>
 </html>
 
