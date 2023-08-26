@@ -7,13 +7,20 @@
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">(servepara criar um site responsivo)
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex</title>
-    <style>
-        h1 {
-            color:  red ;
-        }
-    </style>
+    <!------normalize------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!------Font Roboto------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+    <!------Nosso CSS------>
+    <link rel="stylesheet" href="/assets/css/global.css">
+    
 </head>
 <body>
     <h1>Meu primeiro site</h1>
@@ -23,18 +30,9 @@
     <button id="btnteste" type="button">
         Teste
     </button>
-    <script>
-
-        const btnteste = document.getElementById("btnteste")
-        btnteste.addEventListener("click",function (){
-            console.log("clicando o botão!")
-
-        })
-
-    </script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
-
 
 ->http-server
 Starting up http-server, serving ./
